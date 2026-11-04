@@ -1,0 +1,52 @@
+{
+  "id": "iris-research",
+  "name": "Researcher",
+  "description": "Iris's research specialist: plans searches, reads the sources, writes a short brief with every claim cited, and fact checks articles and sources.",
+  "version": "2.0.1",
+  "icon": "globe",
+  "color": "blue",
+  "model": "iris",
+  "memory": true,
+  "tools": {
+    "image.generate": false,
+    "audio.speak": false,
+    "audio.transcribe": false,
+    "workspace.*": false
+  },
+  "skills": [
+    "research-brief",
+    "fact-check"
+  ],
+  "behaviour": {},
+  "abilities": [
+    "Searches the web and reads the pages it finds",
+    "Answers with a sourced brief, using the Research Brief skill",
+    "Fact checks an article claim by claim, with a verdict and evidence for each",
+    "Checks whether a source is the original and really says what is claimed",
+    "Says where sources disagree, and which is more credible"
+  ],
+  "permissions": [
+    "Web Search and Web Page Reader",
+    "Knowledge Search, to check against your own files and notes",
+    "Reads your memory"
+  ],
+  "changes": [
+    {
+      "version": "2.0.1",
+      "notes": "Clear native name/icon; skill discovery follows account On switches."
+    },
+    {
+      "version": "2.0.0",
+      "notes": "Researcher is Iris Research now, one of Iris's specialists. Source Verification is part of Fact Check."
+    },
+    {
+      "version": "1.1.1",
+      "notes": "Searches again for anything still unanswered instead of listing what it couldn't verify."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "First release, as Researcher."
+    }
+  ],
+  "usage": "delegate"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "kind": "agents",
+  "repository": "https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b",
+  "python": "3.11+",
+  "dependencies": [
+    "PyYAML"
+  ]
+}

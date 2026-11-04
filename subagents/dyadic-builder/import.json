@@ -1,0 +1,11 @@
+{
+  "tools": [
+    "workspace.inspect",
+    "workspace.files",
+    "workspace.patch_preview",
+    "workspace.python",
+    "workspace.bash",
+    "skills.read"
+  ],
+  "adaptation": "Explicit portable tool suggestions; Dyadic review starts them unchecked. Memory remains off and usage is delegate. The source default may inherit additional capabilities."
+}

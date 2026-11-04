@@ -1,0 +1,86 @@
+{
+  "repository": "https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68",
+  "skills": {
+    "dyadic-artifact-handoff": {
+      "path": "dyadic/workflows/dyadic-artifact-handoff",
+      "sha256": "800e22e7418286b5c0e6cb4a2ba2cf3c0fd33ede1f9fac9f12742a4bd8d62755",
+      "bundle_sha256": "f46f4a1444e5ce4d9b0c437b6154a6bc4a3f06cc2130fb314fe98433991ee2af"
+    },
+    "evidence-review": {
+      "path": "dyadic/iris/evidence-review",
+      "sha256": "87086db685e088516ee788c0470fd0a92871a288ca21522660d28d40216b237c",
+      "bundle_sha256": "7b4f8e08ecbe48cb7298e564c5ac79af54fa74d9d6bc10c3ed888f7bb6f08c8f"
+    },
+    "debug-code": {
+      "path": "dyadic/iris/debug-code",
+      "sha256": "c08f264452082d9d898e2bc20f4cfac7cf224cfebeb4ae03143eaa7d4d9b8d99",
+      "bundle_sha256": "355f4ecc63f4ae3f56205ea741e61fe77909f4ae8a4f39b4418eb3f0e46c9a34"
+    },
+    "collaborative-review": {
+      "path": "dyadic/iris/collaborative-review",
+      "sha256": "f2dbd60d698255a753e9581462a161e178815f5b99a2a20a4b02cbaa199669c4",
+      "bundle_sha256": "02ddc6df8dcf1c37a34b86b1c896b97294dc3c2bc421d2d24f18143859b5f3c6"
+    },
+    "dyadic-current-work": {
+      "path": "dyadic/workflows/dyadic-current-work",
+      "sha256": "fb42033422038e07e3b4b93a10a7fd0dbb80153e9891a6e87229c10bef61912a",
+      "bundle_sha256": "dbe6bd8c3d22a54f267e92f10edd5c8680de4288d524a109bb5ff9783ae283ca"
+    },
+    "dyadic-source-conflicts": {
+      "path": "dyadic/workflows/dyadic-source-conflicts",
+      "sha256": "f86ae5b1100992e24cb26dc2b1259885f11a6bc99082a18afcb17dbb717e2286",
+      "bundle_sha256": "eeadd52e6b8ab09d5d1c84814e4a8b9aa6eb1d40b10bcbcbf617740c1023236f"
+    },
+    "data-analysis": {
+      "path": "dyadic/iris/data-analysis",
+      "sha256": "ee284187652779400dae863588bd59f0eda92f3a8d170062090679bb07829f10",
+      "bundle_sha256": "66ff2a25e22f51780e669ed39ecc19c27e2bed605df4c64332b5e55c26178a0a"
+    },
+    "csv-cleanup": {
+      "path": "dyadic/iris/csv-cleanup",
+      "sha256": "08119b23d89def41ccf74102c70a9fae0930491417a2fdbda229e1284995de1b",
+      "bundle_sha256": "71e9b900a2c7d576d27bd399a8f42798943bfeb84c2aca9f4b5f6419b7eefc92"
+    },
+    "sql-analysis": {
+      "path": "dyadic/iris/sql-analysis",
+      "sha256": "4ae0b5f7fc061928a31feadb37be71870955221e421256541fbe35bbaffa017f",
+      "bundle_sha256": "25897f154be59c5d4b39385cb5bfab806e2b5195e089bf929f0e955fe2cd1ea7"
+    },
+    "summarize-documents": {
+      "path": "dyadic/iris/summarize-documents",
+      "sha256": "e5a0a7f9da6e1d951e863beac6c8bdeea1c761188d89dcc5f968d5760207aff0",
+      "bundle_sha256": "37aec6555224c5345c4473c1c9a5c910aac75cbd712e076f2c19318bac06603c"
+    },
+    "extract-structured-data": {
+      "path": "dyadic/iris/extract-structured-data",
+      "sha256": "3e21ca23eef16469a34bbd632dbc80bd4cc6b4a5ac776323af8d92ded28cc401",
+      "bundle_sha256": "8b94bb95c71b4afc1d549c69206555fe7f4f625ca88323364d788e28b291165a"
+    },
+    "compare-documents": {
+      "path": "dyadic/iris/compare-documents",
+      "sha256": "d9dee5a0c4429164a9ea81dca46d306fc3097405c3b05040a373ba5db736a06c",
+      "bundle_sha256": "72d04c9fe04dc57589935dd9bc18be7f641b0ad118a19c93db26f4213f0ebb7a"
+    },
+    "research-brief": {
+      "path": "dyadic/iris/research-brief",
+      "sha256": "96bff86f745ec9b5932b3d8a27a6a60de31e53d2fb180ec1613a310c47878a5b",
+      "bundle_sha256": "92ce357256f9c88619d3d447ea22bf45c0c5695ed8ef7652427e59fd500489bb"
+    },
+    "fact-check": {
+      "path": "dyadic/iris/fact-check",
+      "sha256": "1b015c88abd2e126032006d49aed33cc3e1e083296b5ed69f63d9b6420f06658",
+      "bundle_sha256": "60bcba945f648586a878a44de1369158dca592f2aa1697e5113d1e5415e4b3cc"
+    },
+    "house-style": {
+      "path": "dyadic/iris/house-style",
+      "sha256": "af5aaf2d53fb90e4c0a929d478ae134fc9319d2e2f1a2592613bc5c2b0a34b0b",
+      "bundle_sha256": "cc26caf36fcbb71cc4fe647ffd1bfb5a726c82b59f5e4542da2888b589d57b9e"
+    },
+    "meeting-actions": {
+      "path": "dyadic/iris/meeting-actions",
+      "sha256": "da3c2d5178d606897e268daee1749e8b7c3695405a0722324e9536f943c4fd60",
+      "bundle_sha256": "31d21f9b6a1d69d074a6d2a20e826e4382f73af1cf8ccee6c50500ec2479e6fc"
+    }
+  },
+  "ref": "store"
+}

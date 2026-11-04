@@ -1,0 +1,41 @@
+{
+  "id": "dyadic-builder",
+  "name": "Builder",
+  "description": "Prepare and verify focused code changes in the native isolated sandbox.",
+  "version": "1.0.1",
+  "icon": "code",
+  "color": "violet",
+  "model": "iris",
+  "memory": false,
+  "strict_tools": true,
+  "usage": "delegate",
+  "tools": {
+    "workspace.inspect": true,
+    "workspace.files": true,
+    "workspace.patch_preview": true,
+    "workspace.python": true,
+    "workspace.bash": true,
+    "skills.read": true
+  },
+  "skills": [
+    "debug-code",
+    "collaborative-review",
+    "evidence-review"
+  ],
+  "abilities": [
+    "Prepare and verify focused code changes in the native isolated sandbox."
+  ],
+  "permissions": [
+    "Only the exact native tools listed; no memory or connected integrations."
+  ],
+  "changes": [
+    {
+      "version": "1.0.1",
+      "notes": "Clear native name/icon; skill discovery follows account On switches."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "Native bounded Phase 3 specialist."
+    }
+  ]
+}

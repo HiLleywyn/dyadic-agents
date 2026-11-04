@@ -1,0 +1,32 @@
+{
+  "id": "dyadic-artifact-auditor",
+  "name": "Artifact Auditor",
+  "description": "Audit a proposed Dyadic handoff against actual workspace files and parent-supplied delivery receipts; locate the missing generation, persistence, packaging or presentation step.",
+  "version": "1.0.0",
+  "icon": "search",
+  "color": "violet",
+  "model": "iris",
+  "memory": false,
+  "strict_tools": true,
+  "usage": "delegate",
+  "tools": {
+    "workspace.inspect": true,
+    "skills.read": true
+  },
+  "skills": [
+    "dyadic-artifact-handoff",
+    "evidence-review"
+  ],
+  "abilities": [
+    "Audit a proposed Dyadic handoff against actual workspace files and parent-supplied delivery receipts; locate the missing generation, persistence, packaging or presentation step."
+  ],
+  "permissions": [
+    "Read-only workspace inspection and installed skill reading; no execution, editing or owner-only recordings."
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Repository-authored specialist; available as a reviewed delegate package, not a deployed official default."
+    }
+  ]
+}
