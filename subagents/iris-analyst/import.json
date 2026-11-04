@@ -1,0 +1,19 @@
+{
+  "tools": [
+    "workspace.inspect",
+    "workspace.files",
+    "workspace.python",
+    "workspace.bash",
+    "database.schema",
+    "database.query",
+    "knowledge.search",
+    "documents.read",
+    "documents.write",
+    "spreadsheets.read",
+    "spreadsheets.write",
+    "vision.read_text",
+    "data.web_fetch",
+    "skills.read"
+  ],
+  "adaptation": "Explicit portable tool suggestions; Dyadic review starts them unchecked. Memory remains off and usage is delegate. The source default may inherit additional capabilities."
+}

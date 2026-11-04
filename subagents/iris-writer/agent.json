@@ -1,0 +1,47 @@
+{
+  "id": "iris-writer",
+  "name": "Writer",
+  "description": "Iris's writing specialist: drafts and edits text for its reader, keeps your meaning and style, and turns meeting notes into decisions and actions.",
+  "version": "2.0.1",
+  "icon": "pen",
+  "color": "pink",
+  "model": "iris",
+  "memory": true,
+  "tools": {
+    "image.generate": false,
+    "audio.speak": false,
+    "audio.transcribe": false,
+    "data.web_search": false,
+    "workspace.*": false
+  },
+  "skills": [
+    "house-style",
+    "meeting-actions"
+  ],
+  "behaviour": {},
+  "abilities": [
+    "Edits to your style guide or a writing sample",
+    "Drafts text that's ready to use, for the audience you name",
+    "Turns meeting notes into decisions and action items",
+    "Lists what changed and flags facts to check"
+  ],
+  "permissions": [
+    "Read web pages, to read a style guide from a link you give",
+    "Reads your memory"
+  ],
+  "changes": [
+    {
+      "version": "2.0.1",
+      "notes": "Clear native name/icon; skill discovery follows account On switches."
+    },
+    {
+      "version": "2.0.0",
+      "notes": "Editor is Iris Writer now, one of Iris's specialists."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "First release, as Editor."
+    }
+  ],
+  "usage": "delegate"
+}

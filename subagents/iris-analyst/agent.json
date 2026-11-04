@@ -1,0 +1,55 @@
+{
+  "id": "iris-analyst",
+  "name": "Analyst",
+  "description": "Iris's analyst: computes answers from your data and databases, and reads your documents properly, citing the page for every fact.",
+  "version": "2.0.1",
+  "icon": "chart",
+  "color": "green",
+  "model": "iris",
+  "memory": true,
+  "tools": {
+    "image.generate": false,
+    "audio.speak": false,
+    "audio.transcribe": false,
+    "data.web_search": false
+  },
+  "skills": [
+    "data-analysis",
+    "csv-cleanup",
+    "sql-analysis",
+    "summarize-documents",
+    "extract-structured-data",
+    "compare-documents"
+  ],
+  "behaviour": {},
+  "abilities": [
+    "Profiles and cleans data, then computes totals, trends and comparisons in your sandbox",
+    "Explores and queries your PostgreSQL, MySQL and SQLite databases",
+    "Finds the passages in your files that answer a question, then reads them in full",
+    "Compares documents in a table and extracts data into tables",
+    "Writes notes on a PDF that cite every page, and saves Word, PDF or Excel files",
+    "Draws bar and line charts as SVG files"
+  ],
+  "permissions": [
+    "Code: files in your workspace and an offline sandbox",
+    "Database, once you install it: reads the databases you connect, and asks you before every change",
+    "Knowledge Search, Documents, Spreadsheets and OCR: your own files and attachments",
+    "Read web pages, to fetch a dataset from a link you give",
+    "Reads your memory"
+  ],
+  "changes": [
+    {
+      "version": "2.0.1",
+      "notes": "Clear native name/icon; skill discovery follows account On switches."
+    },
+    {
+      "version": "2.0.0",
+      "notes": "Data Analyst and Document Analyst are one specialist now, Iris Analyst. PDF to Structured Notes is part of Summarize Documents."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "First release, as Data Analyst and Document Analyst."
+    }
+  ],
+  "usage": "delegate"
+}

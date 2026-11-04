@@ -1,0 +1,8 @@
+{
+  "id": "iris",
+  "name": "Iris",
+  "tools": {
+    "agents.ask": true
+  },
+  "behaviour": {}
+}

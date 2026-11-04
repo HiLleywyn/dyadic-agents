@@ -1,0 +1,37 @@
+{
+  "id": "dyadic-reviewer",
+  "name": "Reviewer",
+  "description": "Review code and staged findings with read-only, evidence-based checks.",
+  "version": "1.0.1",
+  "icon": "shield",
+  "color": "violet",
+  "model": "iris",
+  "memory": false,
+  "strict_tools": true,
+  "usage": "delegate",
+  "tools": {
+    "workspace.inspect": true,
+    "tools.compose": true,
+    "skills.read": true
+  },
+  "skills": [
+    "collaborative-review",
+    "evidence-review"
+  ],
+  "abilities": [
+    "Review code and staged findings with read-only, evidence-based checks."
+  ],
+  "permissions": [
+    "Only the exact native tools listed; no memory or connected integrations."
+  ],
+  "changes": [
+    {
+      "version": "1.0.1",
+      "notes": "Clear native name/icon; skill discovery follows account On switches."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "Native bounded Phase 3 specialist."
+    }
+  ]
+}

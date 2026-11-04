@@ -1,0 +1,32 @@
+{
+  "id": "dyadic-continuity-reviewer",
+  "name": "Continuity Reviewer",
+  "description": "Compare a requested revision with Dyadic’s accepted brief and exact file versions; identify lost constraints, intervening edits and stale verification before a new handoff.",
+  "version": "1.0.0",
+  "icon": "search",
+  "color": "violet",
+  "model": "iris",
+  "memory": false,
+  "strict_tools": true,
+  "usage": "delegate",
+  "tools": {
+    "workspace.inspect": true,
+    "skills.read": true
+  },
+  "skills": [
+    "dyadic-current-work",
+    "dyadic-source-conflicts"
+  ],
+  "abilities": [
+    "Compare a requested revision with Dyadic’s accepted brief and exact file versions; identify lost constraints, intervening edits and stale verification before a new handoff."
+  ],
+  "permissions": [
+    "Read-only workspace inspection and installed skill reading; no execution, editing or owner-only recordings."
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Repository-authored specialist; available as a reviewed delegate package, not a deployed official default."
+    }
+  ]
+}

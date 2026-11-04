@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "kind": "agents",
+  "entries": [
+    {
+      "id": "iris",
+      "name": "Iris",
+      "description": "Dyadic’s built-in primary assistant.",
+      "path": "agents/iris",
+      "role": "primary"
+    },
+    {
+      "id": "dyadic-artifact-auditor",
+      "name": "Artifact Auditor",
+      "description": "Audit a proposed Dyadic handoff against actual workspace files and parent-supplied delivery receipts; locate the missing generation, persistence, packaging or presentation step.",
+      "path": "subagents/dyadic-artifact-auditor",
+      "role": "delegate"
+    },
+    {
+      "id": "dyadic-builder",
+      "name": "Builder",
+      "description": "Prepare and verify focused code changes in the native isolated sandbox.",
+      "path": "subagents/dyadic-builder",
+      "role": "delegate"
+    },
+    {
+      "id": "dyadic-continuity-reviewer",
+      "name": "Continuity Reviewer",
+      "description": "Compare a requested revision with Dyadic’s accepted brief and exact file versions; identify lost constraints, intervening edits and stale verification before a new handoff.",
+      "path": "subagents/dyadic-continuity-reviewer",
+      "role": "delegate"
+    },
+    {
+      "id": "dyadic-reviewer",
+      "name": "Reviewer",
+      "description": "Review code and staged findings with read-only, evidence-based checks.",
+      "path": "subagents/dyadic-reviewer",
+      "role": "delegate"
+    },
+    {
+      "id": "dyadic-scout",
+      "name": "Scout",
+      "description": "Inspect files and return concise source locations and evidence.",
+      "path": "subagents/dyadic-scout",
+      "role": "delegate"
+    },
+    {
+      "id": "iris-analyst",
+      "name": "Analyst",
+      "description": "Iris's analyst: computes answers from your data and databases, and reads your documents properly, citing the page for every fact.",
+      "path": "subagents/iris-analyst",
+      "role": "delegate"
+    },
+    {
+      "id": "iris-research",
+      "name": "Researcher",
+      "description": "Iris's research specialist: plans searches, reads the sources, writes a short brief with every claim cited, and fact checks articles and sources.",
+      "path": "subagents/iris-research",
+      "role": "delegate"
+    },
+    {
+      "id": "iris-writer",
+      "name": "Writer",
+      "description": "Iris's writing specialist: drafts and edits text for its reader, keeps your meaning and style, and turns meeting notes into decisions and actions.",
+      "path": "subagents/iris-writer",
+      "role": "delegate"
+    }
+  ]
+}

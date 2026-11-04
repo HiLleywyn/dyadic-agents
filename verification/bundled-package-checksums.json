@@ -1,0 +1,34 @@
+{
+  "dyadic-artifact-auditor.zip": {
+    "sha256": "9227c3c7da8318407a134e0bb31266ec9c8569ed851b4d1e2002278fb27a3b92",
+    "size": 4609
+  },
+  "dyadic-builder.zip": {
+    "sha256": "654ea742e94546aea42aaf8ffe40465d9f744de4e5f1a377906e1a21128a75ef",
+    "size": 12306
+  },
+  "dyadic-continuity-reviewer.zip": {
+    "sha256": "e702eb9e6dd96d48bd70aaf5ac69ca67018e5074e97e50c5b039d0099fe19b2e",
+    "size": 4950
+  },
+  "dyadic-reviewer.zip": {
+    "sha256": "188c61ec1e711fc4a59dc19433dc9d4255baa6b3dea0470b172e46e1c225b4f4",
+    "size": 3667
+  },
+  "dyadic-scout.zip": {
+    "sha256": "209771412748a86a22097ae5eeaa11b173fd1e8a020226c14ee1db66a3391ac1",
+    "size": 2209
+  },
+  "iris-analyst.zip": {
+    "sha256": "037b2c95d8f2af9a50f85258240a34788148bd3e7cc8b46de78db849fe403b22",
+    "size": 24389
+  },
+  "iris-research.zip": {
+    "sha256": "054cea315866319e21c21bc359405709aa6b52fbfff240479753b0bf04e69c0f",
+    "size": 7955
+  },
+  "iris-writer.zip": {
+    "sha256": "5a68e9390009cd546cbf9692e6626ce6410e2f5774e98f81d3c02c425bc50d5f",
+    "size": 4681
+  }
+}

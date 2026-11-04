@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "source": "Dyadic",
+  "revision": "26ea591af225ed48129a1968db78b3e8f335dc90",
+  "normalization": "LF text; no content edits to source snapshots",
+  "files": {
+    "subagents/dyadic-builder/agent.json": {
+      "source": "catalog/agents/dyadic-builder/agent.json",
+      "sha256": "2f3d3ac31fdec5c8980d7d6b1618ede63744ee5c675368e997cb7bba12596ce1"
+    },
+    "subagents/dyadic-builder/instructions.md": {
+      "source": "catalog/agents/dyadic-builder/instructions.md",
+      "sha256": "ab491afb5575274ce2f6fcba9c8ea59b799df65b5bfe254be31fb6a1345feacb"
+    },
+    "subagents/dyadic-reviewer/agent.json": {
+      "source": "catalog/agents/dyadic-reviewer/agent.json",
+      "sha256": "9e9686741987570d05bc7d660a09e75c7c773fe9dcd709985a9e9904f3368fa4"
+    },
+    "subagents/dyadic-reviewer/instructions.md": {
+      "source": "catalog/agents/dyadic-reviewer/instructions.md",
+      "sha256": "087a34d1c580d1e6b6a560b1d83f2cb3a105db6963dc2f7a34c2f61f1ef35e15"
+    },
+    "subagents/dyadic-scout/agent.json": {
+      "source": "catalog/agents/dyadic-scout/agent.json",
+      "sha256": "eceddac87e9bbac451529c6e632687f9c5f32e92d8c0ef4399542796cbe90b2a"
+    },
+    "subagents/dyadic-scout/instructions.md": {
+      "source": "catalog/agents/dyadic-scout/instructions.md",
+      "sha256": "ebedf6a2aed50807a764dc9d90c7901cf23d8e99209e47fd1e22f4e774524eb7"
+    },
+    "subagents/iris-analyst/agent.json": {
+      "source": "catalog/agents/iris-analyst/agent.json",
+      "sha256": "60cc1d39a9de17cc22a1bd3ba15c4dc0ea0f83d426cc402d8c4bca18826b141a"
+    },
+    "subagents/iris-analyst/instructions.md": {
+      "source": "catalog/agents/iris-analyst/instructions.md",
+      "sha256": "9b4c9dd8506f726d623c147cc387f7edb6a933ebe3f76eff25523695770c0d6c"
+    },
+    "subagents/iris-research/agent.json": {
+      "source": "catalog/agents/iris-research/agent.json",
+      "sha256": "bbb8a675638e430814a201a17755bc81e0377686d81eaed5d5de8e87f1604af0"
+    },
+    "subagents/iris-research/instructions.md": {
+      "source": "catalog/agents/iris-research/instructions.md",
+      "sha256": "655aeb47cc47c2b3445aa4f948e245bb29c3e61ca4a5ba519285cd7fc081baf1"
+    },
+    "subagents/iris-writer/agent.json": {
+      "source": "catalog/agents/iris-writer/agent.json",
+      "sha256": "3815840231d031719d055a08c2d6cb9ec077958ad5de0c4b486899132c7c2e65"
+    },
+    "subagents/iris-writer/instructions.md": {
+      "source": "catalog/agents/iris-writer/instructions.md",
+      "sha256": "08b7b47ed68f7b645c63dfdd621b1c5158a3a755907e4a78b7ebea5b4831acba"
+    },
+    "agents/iris/agent.json": {
+      "source": "agents/iris/agent.json",
+      "sha256": "66c1e48f6fcff63d28d779756276703c1844ef1d6184c57cd0c5855a746c8fc1"
+    },
+    "agents/iris/instructions.md": {
+      "source": "agents/iris/instructions.md",
+      "sha256": "47b36515411202d2f42026923e78a5a305163945223852b47266aff1960f0de2"
+    },
+    "agents/iris/SOURCE-README.md": {
+      "source": "agents/iris/README.md",
+      "sha256": "f975e23226846dc09af1eafa363d209cf5b2ed39b1062693d47abc6de6bb5f73"
+    }
+  }
+}

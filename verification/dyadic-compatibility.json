@@ -1,0 +1,737 @@
+{
+  "schema": 1,
+  "scope": "Inert package inspection and default plugin switch matching; no account install or provider calls",
+  "passed": 116,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "skill/algorithmic-art.zip",
+      "sha256": "87319706a5a55e4c284866ed49b212c33ab3b5a3fe585eaea6c2015bacbc3488",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/api-contract-review.zip",
+      "sha256": "c60e8a8b67b867ac2e6c7e0364a5dd77053b01c6c382e20215c4e2d13493d775",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/api-integration.zip",
+      "sha256": "952c4e91ef4e579564b3f896deecad9415323008bd854b5be0bf3af72815a546",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/code-review.zip",
+      "sha256": "ff76f5b4b44c4da55e83a541b1b39ca73a20fd431e099f4ab75134838f9a5d26",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/collaborative-review.zip",
+      "sha256": "f4bff995445b1518cf55877317036ef1c018bb2ebaee4a6b483e0a0cf755b6c2",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/compare-documents.zip",
+      "sha256": "ff9dbe82bf26efbfe15135d2b7376d35ce04fa61f25fc80f0f91a4230ea0cb4c",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/csv-cleanup.zip",
+      "sha256": "2598e64c0bca2d32a21dfc61ad6e014b00b720f3e308e13ae84027d691cf0b1e",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/data-analysis.zip",
+      "sha256": "b3d32943d03387f4dc60ae4a0e129dfeaef5d321da7cbc6c85e74cd95ac61dbd",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/data-visualization.zip",
+      "sha256": "29d201e150fdb1d2987037e1caef57d8ea5a0c29e07d873b70db44eb3797a229",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/debug-code.zip",
+      "sha256": "262086784cad018b8070c25c440c62283a5e9d121827ce50b859008004183979",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/docker-compose-ops.zip",
+      "sha256": "38bd8825942ff9082361e11ae32f305f426cc72ba41301245a5562dd6c87c305",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-artifact-handoff.zip",
+      "sha256": "fac625185a82bb056f278cda43be7c8b4e1a5077d6b8fa40547153fdca66d528",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-attack-path-analysis.zip",
+      "sha256": "b4f07de44101c5f5a9a9d5f5f302d99a5f71d7db4e00b4b6ac0a2b556b5edf44",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-catalog-maintenance.zip",
+      "sha256": "1ca6767f340a46ec0e38ad92884e35b39e9eed15e6a168256e7b831a0c5e4809",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-current-work.zip",
+      "sha256": "79f086874ebe34cf63c4e580799d463bb41b8d595bdc79207ff17e58e364cdab",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-finding-discovery.zip",
+      "sha256": "5bb48a6efe25b2f17781320ad7360fc3f6eb27a39d7a8de961cfa7934126df0b",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-finding-validation.zip",
+      "sha256": "ff5aa64baf91fa4dcb11c5915dfc78a702c6c454d48fb409ea93ed621955a472",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-fix-finding.zip",
+      "sha256": "5121abcd4d260f1bf63727981d5d405c3b6440646785ac8403511cd65fbd09e1",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-receipt-reconciliation.zip",
+      "sha256": "f56079d84c9234258b8d8c6f9d84ae168959d36ed373ccf1aa038d27c8020ac1",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-security-diff-scan.zip",
+      "sha256": "93243291e9310acaffe7a7ae80c39aebc601ad2376a33ed830abb607771330ae",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-security-hardening.zip",
+      "sha256": "aab3eec8127acb8718e1e4bcb09d0d3ebd9ada01c31c2e21a45dd95909e48dee",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-security-policy.zip",
+      "sha256": "65e76ca6882729827c897103df2e24fb4d69aaf7c4655cecdd02d5219e6a46d0",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-security-scan.zip",
+      "sha256": "a8f06472712a7ed91e4ecf265ec0504e44505ad8dd78bc0746a4d55786e4db0b",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-source-conflicts.zip",
+      "sha256": "d6de585f2ef232decff5117ef4b12c1b832631824d6e144464e2e48ffb0521ee",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-threat-model.zip",
+      "sha256": "c791dba60c2fc82abfb411a839588d257151b642a4e7c495f324fb2e41cd0781",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-track-findings.zip",
+      "sha256": "54b66a2f52e0c16da2fb492e376d9b34fcf1513edfe3e4d05ee03fba8020e35f",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-verify-fix.zip",
+      "sha256": "9d1d6289a1abd99a6d3c4f84373235fad5611b89a039994121cf2b9594195020",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/dyadic-vulnerability-writeup.zip",
+      "sha256": "90e3e826b0f106439654af68100dc0d32910905a9ad971a803e42957d803d225",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/evidence-review.zip",
+      "sha256": "ef14ad13138f530ead837731e8051577e57a8cdaec6eb2228b0ea9ed2f3473a4",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/explain-code.zip",
+      "sha256": "506b04a4656d0391abae7830f87319bf291f977862f2c1758e07c3cec1606f2c",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/extract-structured-data.zip",
+      "sha256": "ad63d9194afae05613e5e5c2faf0726c9d64dada7b03a755840e106957a1dae9",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/fact-check.zip",
+      "sha256": "b242a341f0790da1ff7d95aef9d03eaac1b62b95febc9a6664430ccbf769e911",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/forensics.zip",
+      "sha256": "aa6f05adc54ccc38bdd47f26c0f487f1fdf1cbecaed84f5d8c57aeeef08e2a3c",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/house-style.zip",
+      "sha256": "95bb8bd872ee60f01f008c8e092d32439feecca87f14556d68e50537e5baaf9e",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/import-review.zip",
+      "sha256": "dd9ad1b3570014b316695a965d27ad0620b9d4453c8bdc7ebac95f88d0c0a01b",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/kali-linux.zip",
+      "sha256": "2dd5fd1be58e8b5fe629e34a755f2191065c62b551c979d8ad5aa1c657de4b6f",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/karpathy-guidelines.zip",
+      "sha256": "6c97a764a588193fbb12cec0d14804f7fae74cc921012fae8b6e1e437adee913",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-android.zip",
+      "sha256": "66ecd7d9b51d0c6f3c931a23aa1fcc7a3659e95a86654d4c9aec3fdf1a9a62ca",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-delivery.zip",
+      "sha256": "cdc7779280d46552e40675b5768638a4473441a233b8c1041d66fab03eae4bed",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-dyadic-embed.zip",
+      "sha256": "cdccf7bd012fb82f838940aa750b9546463e1af3646092d0373aae6698383f5b",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-git.zip",
+      "sha256": "31dfc07c760e1188e90774a10545091fe6421020905a4f2b0eb2c92682ab81ba",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-interface.zip",
+      "sha256": "8f049cd64f28edf9a5d4f4cb70bd11234b7c2cdc71ef73ea1cd45493d71ebb5b",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-mcp.zip",
+      "sha256": "b931afbe52d587e355b5c7c13bf7c4c8598756c6d1af3a6944580b97a9ea297d",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-notes.zip",
+      "sha256": "3b91029b79f7a11cc2b4790621fc9a71bcdd2c323f68a79d549e6829b17c4174",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/lley-profile.zip",
+      "sha256": "975a54b3f8babb15cd097b03d7c4ebd1bd95e67f2e82f180b90a9aff2470ed59",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/local-field-checks.zip",
+      "sha256": "416ab4a63be30e95090a9d372ba4c79f5b776aec931421ffc2b96633a0f720ce",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/meeting-actions.zip",
+      "sha256": "af8df046dba920526da40ea950c6aaae14ae7dbe1bd5f47e1ed2ab3b063a8194",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/release-verification.zip",
+      "sha256": "8c2b7487cd383b7648d7634225158040af98483438fe6e129d24caec1f0a5131",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/requirements-to-implementation-plan.zip",
+      "sha256": "6e9cc9a11d2c7fa7716de8bb735df4038d4b9683f05f34c0dd8c5db017720b34",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/research-brief.zip",
+      "sha256": "28050277437e51121c3146187c0f9869ba9a999ca79d3066ab1b86cc40dd30f3",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/sql-analysis.zip",
+      "sha256": "f3d403801ef847a47f9607f5a4dd73fa4d1c867582da340473b9bdb980ac5c0a",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/summarize-documents.zip",
+      "sha256": "5aa473e87b9c93064e4733ae6281f562318fc69c267a6d819434152ed755bf42",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/ward-scanner.zip",
+      "sha256": "920d89112855b327c05b0a12146106c59c2c0a09b99f4af747f1275a237afcab",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/web-task-automation.zip",
+      "sha256": "2d9e1665c9fdaa7805b0e8dc1158e924cd89897638a4131874217e82581614a1",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/windows-diagnostics.zip",
+      "sha256": "4e536bde2d9642bd75da0d1f70b421a40b5ff9b584313b1f5e5735729b8fa403",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/windows-sandbox.zip",
+      "sha256": "53b84232708a4efe210e6f73c6d273d923e020e5ec46262aa63bc8044fd22e7a",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/winget-setup.zip",
+      "sha256": "3331759ac84d59676e4d58adde0fd160060aba7df59889049c47418bc6496c3c",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/write-tests.zip",
+      "sha256": "79b50933b11e71a7be815ba387f97fa51c7bb7c96b178cba3d26f27fb13706d9",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "skill/wsl-ops.zip",
+      "sha256": "e694b5f44e169dceefb99cb2088497f9fd0c6d054c6289ce80019175ba06ac4c",
+      "status": "passed",
+      "skills": 1,
+      "agents": 0
+    },
+    {
+      "name": "agent/dyadic-artifact-auditor.zip",
+      "sha256": "0a6a6cb741bc31eb1410d606f920ec9a83f2a36603915feeb3866c2b491597da",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/dyadic-builder.zip",
+      "sha256": "bd07168fb54f2efaaa0b21b1c07e42a572ed3638c778a0ec455aa07f23ff6a61",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/dyadic-continuity-reviewer.zip",
+      "sha256": "bd7750d6691aeb662e18170e1218e89d3c9cc85b075ddadc32e199f873e9bd39",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/dyadic-reviewer.zip",
+      "sha256": "ef2df72139b586c95d85b34148f56e413b62c8597b2824465bd8df192a96bf7b",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/dyadic-scout.zip",
+      "sha256": "fb8f95ee76505541340b784e0fef1db13bf249fc2f03ac3498768593db6f33d2",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/iris-analyst.zip",
+      "sha256": "d5d2e3e6059e7cc421b714b997b323379c53275283a6dad47316a2e6799d974c",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/iris-research.zip",
+      "sha256": "3164fe75cf3e67c498a88c642374e06ccdb6ec0a9baafc18286d1ae7c5cec52b",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "agent/iris-writer.zip",
+      "sha256": "97e471cf89713a3f2f08d28faf65577c4d95dfa3a09ff29442b6ef749db16f0f",
+      "status": "passed",
+      "skills": 0,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/dyadic-artifact-auditor.zip",
+      "sha256": "9227c3c7da8318407a134e0bb31266ec9c8569ed851b4d1e2002278fb27a3b92",
+      "status": "passed",
+      "skills": 2,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/dyadic-builder.zip",
+      "sha256": "654ea742e94546aea42aaf8ffe40465d9f744de4e5f1a377906e1a21128a75ef",
+      "status": "passed",
+      "skills": 3,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/dyadic-continuity-reviewer.zip",
+      "sha256": "e702eb9e6dd96d48bd70aaf5ac69ca67018e5074e97e50c5b039d0099fe19b2e",
+      "status": "passed",
+      "skills": 2,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/dyadic-reviewer.zip",
+      "sha256": "188c61ec1e711fc4a59dc19433dc9d4255baa6b3dea0470b172e46e1c225b4f4",
+      "status": "passed",
+      "skills": 2,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/dyadic-scout.zip",
+      "sha256": "209771412748a86a22097ae5eeaa11b173fd1e8a020226c14ee1db66a3391ac1",
+      "status": "passed",
+      "skills": 1,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/iris-analyst.zip",
+      "sha256": "037b2c95d8f2af9a50f85258240a34788148bd3e7cc8b46de78db849fe403b22",
+      "status": "passed",
+      "skills": 6,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/iris-research.zip",
+      "sha256": "054cea315866319e21c21bc359405709aa6b52fbfff240479753b0bf04e69c0f",
+      "status": "passed",
+      "skills": 2,
+      "agents": 1
+    },
+    {
+      "name": "bundled-agent/iris-writer.zip",
+      "sha256": "5a68e9390009cd546cbf9692e6626ce6410e2f5774e98f81d3c02c425bc50d5f",
+      "status": "passed",
+      "skills": 2,
+      "agents": 1
+    },
+    {
+      "name": "plugin/anime",
+      "status": "passed",
+      "tool": "anime.*"
+    },
+    {
+      "name": "plugin/barcodes",
+      "status": "passed",
+      "tool": "barcodes.*"
+    },
+    {
+      "name": "plugin/benchmarks",
+      "status": "passed",
+      "tool": "benchmarks.*"
+    },
+    {
+      "name": "plugin/books",
+      "status": "passed",
+      "tool": "books.*"
+    },
+    {
+      "name": "plugin/browser",
+      "status": "passed",
+      "tool": "browser.*"
+    },
+    {
+      "name": "plugin/code",
+      "status": "passed",
+      "tool": "workspace.*"
+    },
+    {
+      "name": "plugin/computer",
+      "status": "passed",
+      "tool": "machine.*"
+    },
+    {
+      "name": "plugin/conversions",
+      "status": "passed",
+      "tool": "convert.*"
+    },
+    {
+      "name": "plugin/database",
+      "status": "passed",
+      "tool": "database.*"
+    },
+    {
+      "name": "plugin/documents",
+      "status": "passed",
+      "tool": "documents.*"
+    },
+    {
+      "name": "plugin/flights",
+      "status": "passed",
+      "tool": "flights.*"
+    },
+    {
+      "name": "plugin/food",
+      "status": "passed",
+      "tool": "food.*"
+    },
+    {
+      "name": "plugin/forensics",
+      "status": "passed",
+      "tool": "forensics.*"
+    },
+    {
+      "name": "plugin/game-catalog",
+      "status": "passed",
+      "tool": "games.catalog"
+    },
+    {
+      "name": "plugin/github",
+      "status": "passed",
+      "tool": "github.*"
+    },
+    {
+      "name": "plugin/google",
+      "status": "passed",
+      "tool": "google.*"
+    },
+    {
+      "name": "plugin/health",
+      "status": "passed",
+      "tool": "health.*"
+    },
+    {
+      "name": "plugin/history",
+      "status": "passed",
+      "tool": "history.*"
+    },
+    {
+      "name": "plugin/holidays",
+      "status": "passed",
+      "tool": "holidays.*"
+    },
+    {
+      "name": "plugin/http-request",
+      "status": "passed",
+      "tool": "http.request"
+    },
+    {
+      "name": "plugin/image-analysis",
+      "status": "passed",
+      "tool": "vision.describe_image"
+    },
+    {
+      "name": "plugin/image-generation",
+      "status": "passed",
+      "tool": "image.generate"
+    },
+    {
+      "name": "plugin/knowledge-search",
+      "status": "passed",
+      "tool": "knowledge.search"
+    },
+    {
+      "name": "plugin/memory",
+      "status": "passed",
+      "tool": "memory.*"
+    },
+    {
+      "name": "plugin/movies",
+      "status": "passed",
+      "tool": "movies.*"
+    },
+    {
+      "name": "plugin/music",
+      "status": "passed",
+      "tool": "music.*"
+    },
+    {
+      "name": "plugin/ocr",
+      "status": "passed",
+      "tool": "vision.read_text"
+    },
+    {
+      "name": "plugin/read-web-pages",
+      "status": "passed",
+      "tool": "data.web_fetch"
+    },
+    {
+      "name": "plugin/scheduler",
+      "status": "passed",
+      "tool": "schedule.*"
+    },
+    {
+      "name": "plugin/science",
+      "status": "passed",
+      "tool": "science.*"
+    },
+    {
+      "name": "plugin/scripture",
+      "status": "passed",
+      "tool": "religion.*"
+    },
+    {
+      "name": "plugin/space",
+      "status": "passed",
+      "tool": "space.*"
+    },
+    {
+      "name": "plugin/speech",
+      "status": "passed",
+      "tool": "audio.speak"
+    },
+    {
+      "name": "plugin/sports",
+      "status": "passed",
+      "tool": "sports.*"
+    },
+    {
+      "name": "plugin/spreadsheets",
+      "status": "passed",
+      "tool": "spreadsheets.*"
+    },
+    {
+      "name": "plugin/transcription",
+      "status": "passed",
+      "tool": "audio.transcribe"
+    },
+    {
+      "name": "plugin/travel",
+      "status": "passed",
+      "tool": "travel.*"
+    },
+    {
+      "name": "plugin/vehicles",
+      "status": "passed",
+      "tool": "vehicles.*"
+    },
+    {
+      "name": "plugin/weather",
+      "status": "passed",
+      "tool": "weather.*"
+    },
+    {
+      "name": "plugin/web-search",
+      "status": "passed",
+      "tool": "data.web_search"
+    },
+    {
+      "name": "plugin/complete-default-switch-set",
+      "status": "passed"
+    }
+  ]
+}
