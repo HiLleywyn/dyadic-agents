@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "Dyadic",
-  "revision": "26ea591af225ed48129a1968db78b3e8f335dc90",
+  "revision": "96ef2940376710ca0fd02a97f6782aa8e3cd7358",
   "normalization": "LF text; no content edits to source snapshots",
   "files": {
     "subagents/dyadic-builder/agent.json": {
@@ -63,6 +63,22 @@
     "agents/iris/SOURCE-README.md": {
       "source": "agents/iris/README.md",
       "sha256": "f975e23226846dc09af1eafa363d209cf5b2ed39b1062693d47abc6de6bb5f73"
+    },
+    "subagents/dyadic-api-reviewer/agent.json": {
+      "source": "catalog/agents/dyadic-api-reviewer/agent.json",
+      "sha256": "8a7868664b1c13df1273e0190432a1aab1b2f8fb4417bfd24275e601ec8e97b3"
+    },
+    "subagents/dyadic-api-reviewer/instructions.md": {
+      "source": "catalog/agents/dyadic-api-reviewer/instructions.md",
+      "sha256": "991b17b23aa81888a30bd115d03501da9798fc1ec42567d0a74a51a54e3b87c1"
+    },
+    "subagents/dyadic-security-reviewer/agent.json": {
+      "source": "catalog/agents/dyadic-security-reviewer/agent.json",
+      "sha256": "11a43c94ba7aa3bb3313f677d3c9158a654f1838b5fd152837efa4117cc7df6e"
+    },
+    "subagents/dyadic-security-reviewer/instructions.md": {
+      "source": "catalog/agents/dyadic-security-reviewer/instructions.md",
+      "sha256": "f69d2814a24f3e97a4642dfd11070d411f3a2108fa894b7801a56acdf8b19135"
     }
   }
 }

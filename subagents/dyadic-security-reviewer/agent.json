@@ -1,0 +1,34 @@
+{
+  "id": "dyadic-security-reviewer",
+  "name": "Security Reviewer",
+  "description": "Review the requested source snapshot or patch with read-only inspection.",
+  "version": "1.0.0",
+  "icon": "shield",
+  "color": "violet",
+  "model": "iris",
+  "memory": false,
+  "strict_tools": true,
+  "usage": "delegate",
+  "tools": {
+    "workspace.inspect": true,
+    "tools.compose": true,
+    "skills.read": true
+  },
+  "skills": [
+    "dyadic-security-diff-scan",
+    "dyadic-threat-model",
+    "evidence-review"
+  ],
+  "abilities": [
+    "Review the requested source snapshot or patch with read-only inspection."
+  ],
+  "permissions": [
+    "Exact read-only native tools; no shell, network calls, memory or connected integrations."
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Bounded source reviewer using installed workflow references."
+    }
+  ]
+}

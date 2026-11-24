@@ -10,6 +10,13 @@
       "role": "primary"
     },
     {
+      "id": "dyadic-api-reviewer",
+      "name": "API Reviewer",
+      "description": "Review the supplied API contract, client examples and compatibility assumptions against the pinned source.",
+      "path": "subagents/dyadic-api-reviewer",
+      "role": "delegate"
+    },
+    {
       "id": "dyadic-artifact-auditor",
       "name": "Artifact Auditor",
       "description": "Audit a proposed Dyadic handoff against actual workspace files and parent-supplied delivery receipts; locate the missing generation, persistence, packaging or presentation step.",
@@ -42,6 +49,13 @@
       "name": "Scout",
       "description": "Inspect files and return concise source locations and evidence.",
       "path": "subagents/dyadic-scout",
+      "role": "delegate"
+    },
+    {
+      "id": "dyadic-security-reviewer",
+      "name": "Security Reviewer",
+      "description": "Review the requested source snapshot or patch with read-only inspection.",
+      "path": "subagents/dyadic-security-reviewer",
       "role": "delegate"
     },
     {

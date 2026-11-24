@@ -80,6 +80,26 @@
       "path": "dyadic/iris/meeting-actions",
       "sha256": "da3c2d5178d606897e268daee1749e8b7c3695405a0722324e9536f943c4fd60",
       "bundle_sha256": "31d21f9b6a1d69d074a6d2a20e826e4382f73af1cf8ccee6c50500ec2479e6fc"
+    },
+    "api-contract-review": {
+      "path": "dyadic/iris/api-contract-review",
+      "sha256": "eac271f16b08ac0dad8b9547bde38d1c6bad7b872a7f8b129504a80c33af9ea8",
+      "bundle_sha256": "1be09dd8894ee9604e3ef6d2a56e510b1fccf2026b388ed31494c0cab74bcdc3"
+    },
+    "dyadic-api-integration": {
+      "path": "dyadic/iris/dyadic-api-integration",
+      "sha256": "cc48b8d60f7808ffd5bea4a91a367fcc5d2e5e98a78d9b475f4931bb0a819c72",
+      "bundle_sha256": "9b1f34edb228f8c9b180f039c6e529453eb8f247d4df3cb6fba8a05252000ddc"
+    },
+    "dyadic-security-diff-scan": {
+      "path": "dyadic/security/dyadic-security-diff-scan",
+      "sha256": "ed9267733fc58c0376c88d17fab667f46168ae8e4bd603bc520feb6be4d0610a",
+      "bundle_sha256": "16796651433f071ddf1ba419d45d542a40cce47d8934a529da0e63645ae38eea"
+    },
+    "dyadic-threat-model": {
+      "path": "dyadic/security/dyadic-threat-model",
+      "sha256": "5f087c1153cfa1cb67a3b6777b1845cc138be80b91115f3b53671a0259e54189",
+      "bundle_sha256": "02f717f6d4e81b67ccbcadc3ae24e0fa946111a44da76cf31520b4a4cf34ed26"
     }
   },
   "ref": "store"

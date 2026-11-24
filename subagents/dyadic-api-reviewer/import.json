@@ -1,0 +1,9 @@
+{
+  "tools": [
+    "workspace.inspect",
+    "tools.compose",
+    "skills.read",
+    "verification.api_audit"
+  ],
+  "adaptation": "Explicit portable tool suggestions; Dyadic review starts them unchecked. Memory remains off and usage is delegate."
+}
