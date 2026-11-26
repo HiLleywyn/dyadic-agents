@@ -38,7 +38,7 @@ Official snapshots come from Dyadic `26ea591af225ed48129a1968db78b3e8f335dc90`. 
 
 ## Source, mirrors and licensing
 
-The [lley.cat repository](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b) is canonical. [HiLleywyn/dyadic-agents](https://github.com/HiLleywyn/dyadic-agents) is the secondary source mirror. Project-authored definitions, documentation and tooling use [MIT](LICENSE); preserve notices attached to imported resources.
+The [HiLleywyn/dyadic-agents](https://github.com/HiLleywyn/dyadic-agents) GitHub repository is canonical. [lley.cat](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b) is its synchronized mirror. Project-authored definitions, documentation and tooling use [MIT](LICENSE); preserve notices attached to imported resources.
 
 ## What an agent package defines
 
@@ -63,4 +63,4 @@ The tests validate source metadata, links, dependency identities and actual arch
 
 ## Platform and related sources
 
-[Dyadic Developers](https://dyadic.app/developers/) documents the platform contract. [Skills](https://github.com/HiLleywyn/dyadic-skills) contain reusable procedures, while [plugins](https://github.com/HiLleywyn/dyadic-plugins) describe built-in tool capabilities. [Matrix](https://dyadic.app/developers/matrix/) coordinates durable reviewed work; its [engine source](https://github.com/HiLleywyn/dyadic-matrix) is separately auditable. GitHub Actions is disabled on this mirror; source publication does not activate runtime agents or a delivery pipeline.
+[Dyadic Developers](https://dyadic.app/developers/) documents the platform contract. [Skills](https://github.com/HiLleywyn/dyadic-skills) contain reusable procedures, while [plugins](https://github.com/HiLleywyn/dyadic-plugins) describe built-in tool capabilities. [Matrix](https://dyadic.app/developers/matrix/) coordinates durable reviewed work; its [engine source](https://github.com/HiLleywyn/dyadic-matrix) is separately auditable. Both GitHub Actions and `lley.cat` Actions validate catalog pushes; source publication does not activate runtime agents or a delivery pipeline.
