@@ -1,6 +1,6 @@
 # Builder
 
-[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?ref=store) · [Agents](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?ref=store) · [Plugins](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989?ref=store)
+[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://github.com/HiLleywyn/dyadic-skills) · [Agents](https://github.com/HiLleywyn/dyadic-agents) · [Plugins](https://github.com/HiLleywyn/dyadic-plugins)
 
 Prepare and verify focused code changes in the native isolated sandbox.
 
@@ -14,7 +14,7 @@ Unmodified official definition from Dyadic `26ea591af225ed48129a1968db78b3e8f335
 
 **Role:** delegated specialist. **Source version:** 1.0.1. **Source memory setting:** false.
 
-**Skill dependencies:** [debug-code](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/debug-code&ref=store), [collaborative-review](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/collaborative-review&ref=store), [evidence-review](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/evidence-review&ref=store).
+**Skill dependencies:** [debug-code](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/debug-code), [collaborative-review](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/collaborative-review), [evidence-review](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/evidence-review).
 
 **Portable tools:** `workspace.inspect`, `workspace.files`, `workspace.patch_preview`, `workspace.python`, `workspace.bash`, `skills.read`.
 

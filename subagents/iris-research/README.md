@@ -1,6 +1,6 @@
 # Researcher
 
-[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?ref=store) · [Agents](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?ref=store) · [Plugins](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989?ref=store)
+[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://github.com/HiLleywyn/dyadic-skills) · [Agents](https://github.com/HiLleywyn/dyadic-agents) · [Plugins](https://github.com/HiLleywyn/dyadic-plugins)
 
 Iris's research specialist: plans searches, reads the sources, writes a short brief with every claim cited, and fact checks articles and sources.
 
@@ -14,7 +14,7 @@ Unmodified official definition from Dyadic `26ea591af225ed48129a1968db78b3e8f335
 
 **Role:** delegated specialist. **Source version:** 2.0.1. **Source memory setting:** true.
 
-**Skill dependencies:** [research-brief](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/research-brief&ref=store), [fact-check](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/fact-check&ref=store).
+**Skill dependencies:** [research-brief](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/research-brief), [fact-check](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/fact-check).
 
 **Portable tools:** `data.web_search`, `data.web_fetch`, `knowledge.search`, `documents.read`, `skills.read`.
 

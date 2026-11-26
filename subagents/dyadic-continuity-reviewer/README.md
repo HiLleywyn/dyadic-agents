@@ -1,6 +1,6 @@
 # Continuity Reviewer
 
-[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?ref=store) · [Agents](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?ref=store) · [Plugins](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989?ref=store)
+[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://github.com/HiLleywyn/dyadic-skills) · [Agents](https://github.com/HiLleywyn/dyadic-agents) · [Plugins](https://github.com/HiLleywyn/dyadic-plugins)
 
 Compare a requested revision with Dyadic’s accepted brief and exact file versions; identify lost constraints, intervening edits and stale verification before a new handoff.
 
@@ -14,7 +14,7 @@ Repository-authored addition; not yet part of Dyadic’s official catalog.
 
 **Role:** delegated specialist. **Source version:** 1.0.0. **Source memory setting:** false.
 
-**Skill dependencies:** [dyadic-current-work](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/workflows/dyadic-current-work&ref=store), [dyadic-source-conflicts](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/workflows/dyadic-source-conflicts&ref=store).
+**Skill dependencies:** [dyadic-current-work](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/workflows/dyadic-current-work), [dyadic-source-conflicts](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/workflows/dyadic-source-conflicts).
 
 **Portable tools:** `workspace.inspect`, `skills.read`.
 

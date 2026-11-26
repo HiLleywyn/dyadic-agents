@@ -1,6 +1,6 @@
 # Artifact Auditor
 
-[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?ref=store) · [Agents](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?ref=store) · [Plugins](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989?ref=store)
+[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://github.com/HiLleywyn/dyadic-skills) · [Agents](https://github.com/HiLleywyn/dyadic-agents) · [Plugins](https://github.com/HiLleywyn/dyadic-plugins)
 
 Audit a proposed Dyadic handoff against actual workspace files and parent-supplied delivery receipts; locate the missing generation, persistence, packaging or presentation step.
 
@@ -14,7 +14,7 @@ Repository-authored addition; not yet part of Dyadic’s official catalog.
 
 **Role:** delegated specialist. **Source version:** 1.0.0. **Source memory setting:** false.
 
-**Skill dependencies:** [dyadic-artifact-handoff](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/workflows/dyadic-artifact-handoff&ref=store), [evidence-review](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/evidence-review&ref=store).
+**Skill dependencies:** [dyadic-artifact-handoff](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/workflows/dyadic-artifact-handoff), [evidence-review](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/evidence-review).
 
 **Portable tools:** `workspace.inspect`, `skills.read`.
 

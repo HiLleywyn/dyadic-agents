@@ -1,6 +1,6 @@
 # API Reviewer
 
-[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?ref=store) · [Agents](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?ref=store) · [Plugins](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989?ref=store)
+[Subagents](../README.md) · [All Agents](../../README.md) · [Skills](https://github.com/HiLleywyn/dyadic-skills) · [Agents](https://github.com/HiLleywyn/dyadic-agents) · [Plugins](https://github.com/HiLleywyn/dyadic-plugins)
 
 Review the supplied API contract, client examples and compatibility assumptions against the pinned source.
 
@@ -14,6 +14,6 @@ Unmodified official definition from Dyadic `96ef2940376710ca0fd02a97f6782aa8e3cd
 
 **Role:** delegated specialist. **Source version:** 1.0.0. **Source memory setting:** false.
 
-**Skill dependencies:** [api-contract-review](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/api-contract-review&ref=store), [dyadic-api-integration](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/dyadic-api-integration&ref=store), [evidence-review](https://git.lley.cat/r/1a151e58-468a-45f1-a028-92c95690ad68?path=dyadic/iris/evidence-review&ref=store).
+**Skill dependencies:** [api-contract-review](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/api-contract-review), [dyadic-api-integration](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/dyadic-api-integration), [evidence-review](https://github.com/HiLleywyn/dyadic-skills/tree/main/dyadic/iris/evidence-review).
 
 **Portable tools:** `workspace.inspect`, `tools.compose`, `skills.read`, `verification.api_audit`.
